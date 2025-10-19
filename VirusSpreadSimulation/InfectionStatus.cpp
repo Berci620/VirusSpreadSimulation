@@ -1,0 +1,1 @@
+#include "InfectionStatus.h"

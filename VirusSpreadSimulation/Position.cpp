@@ -7,10 +7,10 @@ unsigned int Position::maxY = 100;
 //--------------------------------------------------------------------------
 //Constructors
 
-Position::Position(const unsigned int x, const unsigned int y)
+Position::Position(const unsigned int size)
 {
-	this->_x = x;
-	this->_y = y;
+	this->_x = size;
+	this->_y = size;
 }
 
 

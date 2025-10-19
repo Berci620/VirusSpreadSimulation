@@ -13,7 +13,7 @@ private: //Variables
 
 public:	//Constructors
 	Position() = default;
-	Position(const unsigned int x, const unsigned int y);
+	Position(const unsigned int size);
 
 
 public: //Operators
