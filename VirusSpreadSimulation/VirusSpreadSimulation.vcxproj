@@ -125,11 +125,15 @@
   <ItemGroup>
     <ClCompile Include="InfectionStatus.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Person.cpp" />
     <ClCompile Include="Position.cpp" />
+    <ClCompile Include="Simulation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="InfectionStatus.h" />
+    <ClInclude Include="Person.h" />
     <ClInclude Include="Position.h" />
+    <ClInclude Include="Simulation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

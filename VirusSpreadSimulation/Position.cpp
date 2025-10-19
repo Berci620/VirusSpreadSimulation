@@ -7,10 +7,10 @@ unsigned int Position::maxY = 100;
 //--------------------------------------------------------------------------
 //Constructors
 
-Position::Position(const unsigned int size)
+Position::Position(const unsigned int x, const unsigned int y)
 {
-	this->_x = size;
-	this->_y = size;
+	this->_x = x;
+	this->_y = y;
 }
 
 
@@ -26,10 +26,24 @@ bool Position::operator==(Position other) const
 //--------------------------------------------------------------------------
 //Static functions
 
-void Position::SetMaxXY(const unsigned int x, const unsigned int y)
+unsigned int Position::MaxX()
 {
-	maxX = x;
-	maxY = y;
+	return Position::maxX;
+}
+
+unsigned int Position::MaxY()
+{
+	return Position::maxY;
+}
+
+
+//--------------------------------------------------------------------------
+//Static functions
+
+void Position::SetMaxXY(const unsigned int size)
+{
+	maxX = size;
+	maxY = size;
 }
 
 

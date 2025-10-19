@@ -9,6 +9,8 @@ class Person
 private:	//Variables
 	Position _position;
 	InfectionStatus _infectionStatus;
-	LifeStatus _lifeStatus;
+
+public:		//Constructors
+	Person(InfectionStatus infectionStatus, const unsigned int positionSize);
 };
 

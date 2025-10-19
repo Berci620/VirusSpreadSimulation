@@ -13,15 +13,20 @@ private: //Variables
 
 public:	//Constructors
 	Position() = default;
-	Position(const unsigned int size);
+	Position(const unsigned int x, const unsigned int y);
 
 
 public: //Operators
 	bool operator==(Position other) const;
 
 
+public:	//Getters
+	static unsigned int MaxX();
+	static unsigned int MaxY();
+
+
 public:	//Static functions
-	static void SetMaxXY(const unsigned int x, const unsigned int y);
+	static void SetMaxXY(const unsigned int size);
 
 
 public: //Neighbors

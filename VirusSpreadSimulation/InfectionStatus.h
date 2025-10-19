@@ -3,6 +3,8 @@ enum class InfectionStatus
 {
 	normál,
 	fertõzött,
-	megerõsített
+	megerõsített,
+	gyógyult,
+	elhunyt
 };
 
