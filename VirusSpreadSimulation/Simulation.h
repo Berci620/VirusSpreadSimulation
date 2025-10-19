@@ -20,5 +20,9 @@ public:		//Constructors
 	Simulation(const unsigned int size, const int nPersons, const int nSamplePlace,
 		const int nQuarantineDays, const float& pInfected, const float& pInfects,
 		const float& pMove);
+
+private:	//Simulation steps
+	void Infecting();
+
 };
 

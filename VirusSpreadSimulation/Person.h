@@ -12,5 +12,12 @@ private:	//Variables
 
 public:		//Constructors
 	Person(InfectionStatus infectionStatus, const unsigned int positionSize);
+
+public:		//Getters
+	const InfectionStatus& GetInfectionStatus() const;
+	const Position& GetPosition() const;
+
+public:		//Setters
+	void SetInfectionStatus(InfectionStatus status);
 };
 
